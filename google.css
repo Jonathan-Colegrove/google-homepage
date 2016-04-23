@@ -1,35 +1,24 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-	float: left;
-}
-
-li a {
-    display: block;
+footer a {
+    display: inline-block;
     padding: 8px;
     text-decoration: none;
-    color: #ECEFF1;
-    background-color: #727272;
+    color: black;
 }
 
 #image {
-    width: 600px;
-    height: 300px;
+    width: 272px;
+    height: 92px;
   position: absolute;
   top: 40%;
   left: 50%;
-  margin-top: -150px;
-  margin-left: -300px;
+  margin-top: -46px;
+  margin-left: -136px;
   }
 
 #form {
       position: absolute;
       top: 68%;
-      left: 50%;
+      left: 43%;
   margin-top: -150px;
   margin-left: -150px;
 }
@@ -42,8 +31,8 @@ li a {
     vertical-align: middle;
     text-decoration: none;
     position: absolute;
-      top: 59%;
-      left: 35%;
+      top: 56%;
+      left: 39%;
     margin-left: -70px;
     background-color: white;
 }
@@ -56,16 +45,22 @@ li a {
     vertical-align: middle;
     text-decoration: none;
     position: absolute;
-      top: 59%;
-      left: 55%;
+      top: 56%;
+      left: 57%;
    margin-left: -70px;
    background-color: white;
 }
 
-#footer {
-        float:right;
-text-decoration: none;
-	padding:15px 0;
-position:fixed;
-    bottom:0;
+footer {
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#l {
+ float: left;
+}
+
+#r {
+  float: right;
 }
